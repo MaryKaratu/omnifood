@@ -57,10 +57,10 @@
 /* BELOW 944px (Tablet) */
 /* ******************************* */
 @media (max-width: 59em) {
-
-html {
-  /* 8px/16=0.5=50% */
-  font-size: 50%;
+  html {
+    /* 8px/16=0.5=50% */
+    font-size: 50%;
+  }
 
   .hero-container {
     grid-template-columns: 1fr;
@@ -215,7 +215,7 @@ html {
 /* BELOW 544px (Phones) */
 /* ******************************* */
 
-@media (max-width: 34em){
+@media (max-width: 34em) {
   .grid {
     row-gap: 4.8rem;
   }
